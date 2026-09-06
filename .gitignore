@@ -1,0 +1,25 @@
+# Ignore everything
+*
+
+# But descend into directories
+!*/
+
+# Recursively allow files under subtree
+!/commands/**
+!/hooks/**
+!/skills/**
+!/subagents/**
+!/tools/**
+
+# Specific Files
+!/.gitattributes
+!/.gitignore
+!/LICENSE.txt
+!/README.md
+
+
+# Ignore specific files
+# *
+
+# Ignore Folders
+# *
